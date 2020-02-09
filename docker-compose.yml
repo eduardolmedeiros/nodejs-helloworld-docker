@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  nodejs:
+    image: emedeiros/nodejs-helloworld-docker
+    ports:
+      - 8080:8080
